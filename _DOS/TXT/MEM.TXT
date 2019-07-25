@@ -1,0 +1,38 @@
+
+Modules using memory below 1 MB:
+
+  Name           Total       =   Conventional   +   Upper Memory
+  --------  ----------------   ----------------   ----------------
+  MSDOS       64,061   (63K)     64,061   (63K)          0    (0K)
+  HIMEM        3,744    (4K)      3,744    (4K)          0    (0K)
+  EMM386       9,392    (9K)      9,392    (9K)          0    (0K)
+  CD1         28,880   (28K)     28,880   (28K)          0    (0K)
+  COMMAND      4,992    (5K)      4,992    (5K)          0    (0K)
+  DN           1,120    (1K)      1,120    (1K)          0    (0K)
+  MSCDEX      27,952   (27K)     27,952   (27K)          0    (0K)
+  COMMAND      3,056    (3K)      3,056    (3K)          0    (0K)
+  Free       512,080  (500K)    512,080  (500K)          0    (0K)
+
+Memory Summary:
+
+  Type of Memory       Total   =    Used    +    Free
+  ----------------  ----------   ----------   ----------
+  Conventional         655,360      143,280      512,080
+  Upper                      0            0            0
+  Reserved             393,216      393,216            0
+  Extended (XMS)*   32,505,856      540,672   31,965,184
+  ----------------  ----------   ----------   ----------
+  Total memory      33,554,432    1,077,168   32,477,264
+
+  Total under 1 MB     655,360      143,280      512,080
+
+  Total Expanded (EMS)                32,833,536 (32,064K
+  Free Expanded (EMS)*                32,210,944 (31,456K
+
+  * EMM386 is using XMS memory to simulate EMS memory as needed.
+    Free EMS memory may change as free XMS memory changes.
+
+  Largest executable program size        511,968   (500K)
+  Largest free upper memory block              0     (0K)
+  Available space in High Memory Area          0     (0K)
+  The high memory area is available.
