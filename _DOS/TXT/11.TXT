@@ -1,0 +1,37 @@
+
+ฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+ณ                        <<<<< KeyRus >>>>>                      ณ
+ณ  Support national languages for IBM PC or compatible computers ณ
+ณ                   Version 7.3 from March 3 1992                ณ
+ณ    (c) Copyright 1989-1992 by Gurtjak D. (Ukraine, Donetsk)    ณ
+ภฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤู
+
+USAGE: KEYRUS [/key1 /key2 ...]         - run KeyRus
+       KEYRUS [/key1 /key2 ...] /SAVE   - for save parameters
+       KEYRUS /HELP[:RUS]               - for quick help
+
+ีอออออ MAIN BLOCKS อออออออออออออออออออัออออ KEYBOARD SWITCH ออออออออออออออออออธ
+ณ /KEYBOARD=Off|On   keyboard handler ณ /SCAN=<scancode>          to cyrillic ณ
+ณ /ROM          disable video handler ณ /LAT=OFF|<scancode>        to english ณ
+ณ /INTERFACE=Off|On   interface block ณ /ALT=OFF|<scancode>      to alternate ณ
+ฦอออออ FONTS, CHARACTERS อออออออออออออต /RUSALT     In Cyr. mode Alt+ ,./;'[] ณ
+ณ /8x8=Off|On                font 8x8 ฦออออ KEYBOARD INDICATION ออออออออออออออต
+ณ /8x14=Off|On|Auto         font 8x14 ณ /COLOR=<col>[,<altcol>]  border color ณ
+ณ /8x16=Off|On|Auto         font 8x16 ณ /BEEP=Off|On [,<mode>]           beep ณ
+ณ /FULL           full screen support ณ /CLICK=Off|On[,<mode>]     click keys ณ
+ณ /ALL                 all characters ณ /LAMP=Off|On [,<mode>]     ScrollLock ณ
+ณ /128             top 128 characters ณ                 รฤฤ RUS      cyrillic ณ
+ณ /RANGE=<st1>-<en1>,<st2>-<en2>      ณ          <mode> รฤฤ LAT       english ณ
+ณ                only characters from ณ                 ภฤฤ ALT     alternate ณ
+ณ                    2 defined ranges ฦออออ KEYBOARD อออออออออออออออออออออออออต
+ณ /RUSSIAN    only russian characters ณ /SWITCH=Off|On                        ณ
+ณ /COMPRESS=Off|On     compress fonts ณ        =<sccode>[,<shift>]     define ณ
+ณ /FONT=<file>     load external font ณ  key for switch on/off ROM characters ณ
+ฦอออออ OTHERS ออออออออออออออออออออออออต /BASE_KEYS[=Off]      english support ณ
+ณ /FILES   Create FONT and KEYS files ณ /KEYS=<file>      load keyboard array ณ
+ณ /?               show configuration ณ /FAST[=rate[,delay]]    keyboard rate ณ
+ณ /EGA             for some silly EGA ณ /BUFFER         large keyboard buffer ณ
+ณ /RELEASE        release from memory ณ /BLANK=Off|On[,time[,mouse]]    blank ณ
+ณ /HELP[:RUS]              quick help ณ             screen after defined time ณ
+ิอออออออออออออออออออออออออออออออออออออฯอออออออออออออออออออออออออออออออออออออออพ
+  KEYRUS [<parameters>] /SAVE  - save <parameters>              press any key
